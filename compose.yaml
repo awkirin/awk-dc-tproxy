@@ -1,0 +1,7 @@
+name: tproxy
+
+services:
+  app:
+    build: .
+    ports:
+      - "9050:9050"
